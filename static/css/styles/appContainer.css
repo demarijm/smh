@@ -1,0 +1,111 @@
+body:not(.et-tb) #main-content div.container,
+body:not(.et-tb-has-header) #main-content div.container {
+    max-width: unset;
+    width: 100%;
+    padding-top: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+#brevo-conversations {
+    display: none;
+}
+
+h1.main_title {
+    display: none;
+}
+
+.app-entrypoint {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.react-resizable-handle {
+    background-image: url('https://traderlink.io/wp-content/uploads/2023/07/handle.svg');
+    z-index: 2;
+}
+
+.react-resizable-handle::after {
+    border-right: 2px solid rgba(255, 255, 255, 0.4) !important;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4) !important;
+}
+
+.react-resizable-handle.react-resizable-handle-se {
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.react-resizable-handle.react-resizable-handle-se::after {
+    right: 5px;
+    bottom: 5px;
+}
+
+::-webkit-scrollbar {
+    height: 16px;
+    overflow: visible;
+    width: 16px;
+}
+
+::-webkit-scrollbar-button {
+    height: 0;
+    width: 0;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 4px;
+    background-color: #dadce0;
+    border-radius: 8px;
+    box-shadow: none;
+    min-height: 28px;
+    padding: 100px 0 0;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: none;
+    margin: 0 4px;
+    background-clip: padding-box;
+    border: solid transparent;
+    border-width: 0 0 0 4px;
+}
+
+input[type='text'] {
+    background-color: unset;
+    border: unset;
+    color: unset;
+    padding: unset;
+}
+
+input[type='text']:focus {
+    color: unset;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-bottom: unset;
+}
+
+p {
+    padding-bottom: unset;
+}
+
+#left-area ul, .entry-content ul {
+    list-style-type: unset;
+    padding: unset;
+    line-height: unset;
+}
+
+* {
+    box-sizing: initial;
+}
+
+.et_pb_section {
+    padding: 0;
+}
